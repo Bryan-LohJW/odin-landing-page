@@ -1,13 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .top-content {
     padding-left: 10%;
     padding-right: 10%;
-    
-    height: 600px;
 
     background-color: #1F2937;
 }
@@ -86,7 +85,6 @@ a {
     padding-left: 10%;
     padding-right: 10%;
 
-    height: 600px;
 }
 
 .btm-content h1 {
@@ -168,7 +166,7 @@ a {
     display: flex;
     justify-content: space-between;
 
-    margin: 20%;
+    margin: 10%;
     padding-left: 10%;
     padding-right: 10%;
     padding-block: 5%;
