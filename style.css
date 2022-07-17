@@ -1,0 +1,36 @@
+.top-content .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: double;
+
+    background-color: #1F2937;
+    max-height: 200px;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.top-content{
+    max-height: 500px;
+}
+
+img {
+    border-style: dashed;
+    max-width:100px;
+    max-height:30px;
+    object-fit: contain;
+    flex: 1 1 auto;
+}
+
+ul {
+    border-style: dotted;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
