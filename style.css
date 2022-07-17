@@ -1,29 +1,43 @@
+.top-content {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    background-color: #1F2937;
+}
+
 .top-content .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-style: double;
 
-    background-color: #1F2937;
-    max-height: 200px;
-    padding-left: 10%;
-    padding-right: 10%
+    max-height: 150px;
+    
 }
 
-.top-content{
-    max-height: 500px;
-}
-
-img {
-    border-style: dashed;
+.top-content .header img
+{
+    object-fit: contain;
     max-width:100px;
     max-height:30px;
+    
+}
+
+.top-content .content{
+    display: flex;
+
+    max-height: 500px;
+
+    color: white;
+}
+
+.top-content .content div,
+.top-content .content img {
+    max-width: 40%;
     object-fit: contain;
-    flex: 1 1 auto;
+    margin: 5%;
 }
 
 ul {
-    border-style: dotted;
     list-style-type: none;
     display: flex;
     padding: 0;
