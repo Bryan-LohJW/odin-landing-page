@@ -53,7 +53,7 @@ body {
     
 }
 
-button {
+.top-content button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bolder;
@@ -158,4 +158,54 @@ a {
 
     font-size: 18px;
     font-weight: bolder;
+}
+
+.footer {
+    padding-top: 5%;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-block: 5%;
+
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.call-to-action {
+    color: #F9FAF8;
+}
+
+.call-to-action h3 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.call-to-action p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.button-box button {
+    padding-inline: 30px;
+
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 5px;
+
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.footer .footer-btm {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-block: 20px;
 }
